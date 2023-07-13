@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+
+
+/* Quote Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    
+    width: 40vw;
+    padding: 15px;
+    word-wrap: break-word;
+    word-break:break-all;
+    border: 3px solid grey;
+    border-radius: 15px;
+    box-shadow: 2px 2px 20px 2px lightslategray;
+}
+
+
+/* Title */
+h1 {
+    color: rgb(38, 130, 130);
+    font-size: 40px;
+    font-weight: bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-shadow: 1.5px 1.5px 2px rgb(22, 199, 181);
+}
+
+
+/* Quote */
+p {
+    font-size: 22px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Author */
+h3 {
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* Button */
+button {
+    padding: 6px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: rgb(134, 180, 180);
+}
+
+button:hover {
+    color: white;
+    background-color: rgb(42, 150, 150);
+}
